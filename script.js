@@ -15,9 +15,9 @@ const tablebody = document.querySelector('#tabela');
 
 
 
-let token = '116:49163d784512d799beb6eb54ef0d3b2605b5c5fd1c9e64800ff8955d55ddce1e';
+let token = 'TOKEN';
 let options = { method: 'GET',
-  url: 'https://ixc.vntinternet.com.br/webservice/v1/radusuarios',
+  url: 'https://HOST/webservice/v1/radusuarios',
   headers:
    {
      'Content-Type': 'application/json',
