@@ -8,8 +8,9 @@
 
 table {
     margin-top: 1.5rem;
-    margin-left: 1.5rem;
+    margin-left: 1.3rem;
     border: 2px solid gray;
+    margin-right: 1.3rem;
 }
 
 tbody,thead{
@@ -21,4 +22,5 @@ td{
     border: 2px solid gray ;
     padding: 30px;
     font-size: 22px;
+    text-align: center ;
 }
