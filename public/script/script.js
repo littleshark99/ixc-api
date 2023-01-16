@@ -11,26 +11,7 @@ const tablebody = document.querySelector('#tabela');
 
 
 
-let token = '116:49163d784512d799beb6eb54ef0d3b2605b5c5fd1c9e64800ff8955d55ddce1e';
-let options = { method: 'GET',
-  url: 'https://ixc.vntinternet.com.br/webservice/v1/radusuarios',
-  headers:
-   {
-     'Content-Type': 'application/json',
-     Authorization: 'Basic ' + new Buffer.from(token).toString('base64'),
-     ixcsoft: 'listar'
-   },
-  body:
-   { qtype: 'radusuarios.id',
-     query: '0',
-     oper: '>',
-     page: '1',
-     rp: '20',
-     sortname: 'radusuarios.id',
-     sortorder: 'desc'
-   },
-  json: true
-  };
+
 //CLIENTE
   
 
